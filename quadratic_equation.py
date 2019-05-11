@@ -10,4 +10,4 @@ def get_roots(a, b, c):
     else if discriminant > 0:
         return root1, root2
     else:
-        return "no real solutions!"
+        return None, None
