@@ -1,6 +1,6 @@
 # Решатель квадратных уравнений
 
-Решает квадратное уравнение с заданными a, b, c
+Решает квадратное уравнение ax^2+bx+c=0 с заданными a, b, c
 
 # Как использовать
 
@@ -16,7 +16,8 @@ function get_roots(a,b,c) {
 ```javascript
 from math import sqrt
 
-root1, root2 = get_roots(1, 2, 3)
+root1, root2 = get_roots(1, -2, -3)
+>> (-1.0, 3.0)
 ```
 
 
