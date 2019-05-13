@@ -2,11 +2,10 @@ from math import sqrt
 
 
 def get_roots(a, b, c):
-
     if a == 0:
 
         if b == 0:
-            print("NO SOLUTIONS")
+            return None
         else:
             return -b/c, None
 
